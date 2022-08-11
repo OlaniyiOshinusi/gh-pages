@@ -3,5 +3,6 @@
 document.getElementById('percent--form').addEventListener('submit', e => {
     e.preventDefault();
     const amount = document.getElementById('amount').value;
-    console.log(amount);
+    const percent = document.getElementById('percent').value
+    console.log(amount, percent);
 })
